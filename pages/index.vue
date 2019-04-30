@@ -1,7 +1,7 @@
 <template>
 <div>
   <v-container>
-    <v-layout
+    <v-layout xs12
     text-xs-center>
     <v-flex>
         <v-avatar
