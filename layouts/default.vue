@@ -1,10 +1,16 @@
 <template>
   <v-app dark>
+        <v-toolbar flat>
+           <v-spacer></v-spacer>
+      <v-toolbar-items>
+      <v-btn flat to='home'>Home</v-btn>
+      <v-btn flat to='member'>Member</v-btn>
+      <v-btn flat>twitch</v-btn>
+    </v-toolbar-items>
+</v-toolbar>
 
     <v-content>
-      <v-container>
         <nuxt />
-      </v-container>
     </v-content>
   </v-app>
 </template>
