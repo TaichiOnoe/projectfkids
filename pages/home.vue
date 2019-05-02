@@ -2,7 +2,7 @@
 <v-app>
   <v-parallax
     dark
-    src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+    src="https://user-images.githubusercontent.com/42897791/57068404-9fd3be00-6d0c-11e9-8a8c-d329af72b095.png"
   >
     <v-layout
       align-center
@@ -21,7 +21,7 @@
 </h1>
 
 <h4 class="subheading">
-    Health Good Bad Boys (HGBB)は親愛なるフレンドからなるゲーミングチームです。
+    Health Good Bad Boys (HGBB)は2010年に設立され、9年目を迎えるゲーミングチームです。
 </h4>
 </v-container>
 
