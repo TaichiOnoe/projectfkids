@@ -1,13 +1,13 @@
 <template>
     <v-app>
-        <div>
-            <v-container fluid grid-list-lg>
-
-        <v-flex xs12 v-for="data in myjson" :key="data.id">
+        <v-container grid-list-xl>
+        <v-layout wrap>  
+        <v-flex v-for="data in myjson" :key="data.id">
           <card :items="data"></card>
           </v-flex>
+            
+                </v-layout>
             </v-container>
-        </div>
     </v-app>
 </template>
 

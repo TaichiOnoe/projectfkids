@@ -1,15 +1,14 @@
 <template>
   <v-layout>
-    <v-flex xs12 sm6 offset-sm3>
+    <v-flex xs12 >
       <v-card>
         <v-img
           class="white--text"
-          height="200px"
-          src=""
+          src="https://user-images.githubusercontent.com/42897791/56977043-47d37500-6baf-11e9-855c-15345b20fb38.jpg"
         >
-          <v-container fill-height fluid>
-            <v-layout fill-height>
-              <v-flex xs12 align-end flexbox>
+          <v-container>
+            <v-layout>
+              <v-flex xs12 flexbox>
                 <span class="headline">{{items.name}}</span>
               </v-flex>
             </v-layout>
