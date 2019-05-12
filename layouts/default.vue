@@ -5,7 +5,6 @@
       <v-toolbar-items>
       <v-btn flat to='/'>Home</v-btn>
       <v-btn flat to='member'>Member</v-btn>
-      <v-btn flat>twitch</v-btn>
     </v-toolbar-items>
 </v-toolbar>
 
@@ -15,9 +14,4 @@
   </v-app>
 </template>
 
-<script>
-export default {
-  data() {
-  }
-}
-</script>
+

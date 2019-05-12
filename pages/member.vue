@@ -1,13 +1,14 @@
 <template>
     <v-app>
-        <v-container grid-list-xl>
-        <v-layout wrap>  
-        <v-flex v-for="data in myjson" :key="data.id">
+
+      <v-container>
+        <v-layout wrap>
+        <v-flex lg2 mx-4 my-2 v-for="data in myjson" :key="data.id">
           <card :items="data"></card>
           </v-flex>
-            
-                </v-layout>
-            </v-container>
+        </v-layout>
+
+      </v-container>
     </v-app>
 </template>
 
@@ -27,3 +28,4 @@ components:{
 }
 }
 </script>
+
