@@ -28,7 +28,7 @@
         <v-layout column>
           <v-flex>
             <v-card flat>
-              <v-card-text>  Health Good Bad Boys (HGBB)は2010年に設立され、9年目を迎えるゲーミングチームです。<br>フォートナイトをメインに、Twitch,Youtubeを通して配信も行っています。</v-card-text>
+              <v-card-text>Health Good Bad Boys (HGBB)は2010年に設立され、9年目を迎えるゲーミングチームです。<br>フォートナイトをメインに、Twitch,Youtubeを通して配信も行っています。</v-card-text>
             </v-card>
           </v-flex>
         </v-layout>
@@ -44,7 +44,9 @@
               <v-card-text> 
                 <div src='https://www.epicgames.com/fortnite/ja/home'>Fortnite </div> <br>
                 <div href='https://www.minecraft.net/ja-jp/'>Minecraft</div><br>
-                <div href='https://godfield.net/'> God Field</div>
+                <div href='https://godfield.net/'> God Field</div> <br>
+                <div>Rainbow Six Siege</div> <br>
+                <div>Puzzle & Dragons</div>
                 </v-card-text>
             </v-card>
           </v-flex>
