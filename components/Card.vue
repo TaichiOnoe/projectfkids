@@ -5,7 +5,7 @@
       <v-card> 
         <v-img
           class="white--text"
-          src="https://user-images.githubusercontent.com/42897791/56977043-47d37500-6baf-11e9-855c-15345b20fb38.jpg"
+          :src='items.images'
         >
           <v-container fill-height fluid>
             <v-layout fill-height>

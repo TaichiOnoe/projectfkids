@@ -1,5 +1,5 @@
 {
-  "name": "projectfkids",
+  "name": "healthgoodbadboys",
   "version": "1.0.0",
   "description": "Fkids website",
   "author": "GalaxyTaichi",
@@ -11,7 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^2.6.0",
+    "@nuxtjs/pwa": "^3.0.0-beta.16",
     "cross-env": "^5.2.0",
     "nuxt": "^2.4.0",
     "vuetify": "^1.5.5",

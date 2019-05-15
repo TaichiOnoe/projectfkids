@@ -43,6 +43,13 @@ export default {
     '@/plugins/vuetify'
   ],
 
+  manifest: {
+    name: 'GoodHealthBadBoys',
+     short_name: 'GHBB',
+     title: 'GHBB', 
+      lang: 'ja',
+  },  
+
   /*
   ** Nuxt.js modules
   */

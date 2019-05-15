@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app >
         <v-toolbar flat>
            <v-spacer></v-spacer>
       <v-toolbar-items>

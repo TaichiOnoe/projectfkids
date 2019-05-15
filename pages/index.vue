@@ -2,14 +2,13 @@
 <v-app>
   
   <v-jumbotron
-    :gradient="gradient"
-    dark
+  dark
     src="https://user-images.githubusercontent.com/42897791/57073541-555a3d80-6d1c-11e9-98fb-a8d7ed40f658.png"
   >
     <v-container fill-height>
       <v-layout align-center>
         <v-flex text-xs-center>
-          <h3 class="display-3">Health Good Bad Boys</h3>
+          <h3 class="display-3">GOOD HEALTH BAD BOYS</h3>
         </v-flex>
       </v-layout>
     </v-container>
@@ -22,37 +21,25 @@
       tag="section"
       text-xs-center
     >
-    <v-layout row wrap>
-      <v-flex tag="h1" class="headline">About HGBB</v-flex>
-      <v-flex d-flex xs12 order-xs5>
-        <v-layout column>
-          <v-flex>
-            <v-card flat>
-              <v-card-text>Health Good Bad Boys (HGBB)は2010年に設立され、9年目を迎えるゲーミングチームです。<br>フォートナイトをメインに、Twitch,Youtubeを通して配信も行っています。</v-card-text>
-            </v-card>
-          </v-flex>
-        </v-layout>
-      </v-flex>
-    </v-layout>
 
-    <v-layout row wrap>
-      <v-flex tag="h1" class="headline"> Game Title</v-flex>
-      <v-flex d-flex xs12 order-xs5>
-        <v-layout column>
-          <v-flex>
-            <v-card flat>
-              <v-card-text> 
-                <div src='https://www.epicgames.com/fortnite/ja/home'>Fortnite </div> <br>
-                <div href='https://www.minecraft.net/ja-jp/'>Minecraft</div><br>
-                <div href='https://godfield.net/'> God Field</div> <br>
-                <div>Rainbow Six Siege</div> <br>
-                <div>Puzzle & Dragons</div>
-                </v-card-text>
-            </v-card>
-          </v-flex>
-        </v-layout>
-      </v-flex>
-    </v-layout>
+<v-layout justify-center mt-5>
+    <v-flex lg2 xs6>
+      <v-card>
+      <v-img src='https://user-images.githubusercontent.com/42897791/57777178-2dc39600-775c-11e9-89b1-076300e258fb.png'
+      >
+      </v-img>
+      </v-card>
+    </v-flex>
+
+
+
+<v-flex lg2 xs6 fill-height>
+      <span class='title'>
+       Good Health Bad Boys (GHBB)は2010年に設立され、9年目を迎えるゲーミングチームです。フォートナイトをメインに、Twitch,Youtubeを通して配信も行っています。
+      </span>
+    </v-flex>
+</v-layout>
+
   </v-container>
 
   <v-footer class="pa-3">
