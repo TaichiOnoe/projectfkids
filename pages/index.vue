@@ -14,16 +14,10 @@
     </v-container>
   </v-jumbotron>
 
-    <v-container
-      id="grid"
-      fluid
-      grid-list-sm
-      tag="section"
-      text-xs-center
-    >
+    <v-container>
 
-<v-layout justify-center mt-5>
-    <v-flex lg2 xs6>
+<v-layout justify-center my-5>
+    <v-flex lg2 xs>
       <v-card>
       <v-img src='https://user-images.githubusercontent.com/42897791/57777178-2dc39600-775c-11e9-89b1-076300e258fb.png'
       >
@@ -32,15 +26,37 @@
     </v-flex>
 
 
+<v-flex lg2 xs10 fill-height py-5 mx-5 text-xs-center>
+  <v-container>
+  <div class='headline'>About GHBB
+    </div>
+  </v-container>
+      <span class='body-2'>
+       Good Health Bad Boysは2010年に設立され、9年目を迎えるゲーミングチームです。フォートナイトをメインに、Twitch,Youtubeを通して配信も行っています。
+      </span>
+    </v-flex>
+</v-layout>
 
-<v-flex lg2 xs6 fill-height>
-      <span class='title'>
-       Good Health Bad Boys (GHBB)は2010年に設立され、9年目を迎えるゲーミングチームです。フォートナイトをメインに、Twitch,Youtubeを通して配信も行っています。
+<v-layout justify-center mt-5>
+<v-flex lg2 xs12 fill-height py-5 mx-5 text-xs-center>
+  <v-container>
+  <div class='headline'>Game Title
+    </div>
+  </v-container>
+      <span class='body-1'>
+       Fortnite <br>
+       Minecraft <br>
+       Tom Clancy's Rainbow Six Siege <br>
+       God Field <br>
+
       </span>
     </v-flex>
 </v-layout>
 
   </v-container>
+
+
+
 
   <v-footer class="pa-3">
     <v-layout justify-center>   
@@ -54,11 +70,11 @@
 
 <script>
 export default {
-    
 }
 </script>
 
-<style>
+<style scoped>
+
 .page-enter-active,
 .page-leave-active {
   transition: opacity 0.3s;
