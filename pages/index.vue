@@ -8,7 +8,7 @@
     <v-container fill-height>
       <v-layout align-center>
         <v-flex text-xs-center>
-          <h3 class="display-3">GOOD HEALTH BAD BOYS</h3>
+          <h3 class="display-3">HEALTH GOOD BAD BOYS</h3>
         </v-flex>
       </v-layout>
     </v-container>
@@ -28,11 +28,11 @@
 
 <v-flex lg2 xs10 fill-height py-5 mx-5 text-xs-center>
   <v-container>
-  <div class='headline'>About GHBB
+  <div class='headline'>About HGBB
     </div>
   </v-container>
       <span class='body-2'>
-       Good Health Bad Boysは2010年に設立され、9年目を迎えるゲーミングチームです。フォートナイトをメインに、Twitch,Youtubeを通して配信も行っています。
+       Health Good Bad Boysは2010年に設立され、9年目を迎えるゲーミングチームです。フォートナイトをメインに、Twitch,Youtubeを通して配信も行っています。
       </span>
     </v-flex>
 </v-layout>

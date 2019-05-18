@@ -1,10 +1,9 @@
 <template>
 
   <v-layout>
-    <v-flex justify-center> 
+    <v-flex justify-center text-xs-center> 
       <v-card> 
         <v-img
-          class="white--text"
           :src='items.images'
         >
           <v-container fill-height fluid>
@@ -15,13 +14,13 @@
         <v-card-title>
           <v-flex text-xs-center>
             <span class='headline'>{{items.name}}</span><br>
-            <span>comment area{{items.comment}}</span>
+            <span>{{items.comment}}</span>
           </v-flex>
         </v-card-title>
-        <v-card-actions>
+        <v-card-text>
           <v-btn flat :href='items.twitch' target="_blank" :disabled="showbtnTwitch"> <i class="fab fa-twitch fa-2x"></i></v-btn>
           <v-btn flat :href='items.youtube' target="_blank" :disabled="showbtnYoutube"> <i class="fab fa-youtube fa-2x"></i></v-btn>
-        </v-card-actions>
+        </v-card-text>
       </v-card>
     </v-flex>
   </v-layout>
