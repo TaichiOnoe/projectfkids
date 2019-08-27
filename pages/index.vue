@@ -32,7 +32,7 @@
     </div>
   </v-container>
       <span class='body-2'>
-       Health Good Bad Boysは2010年に設立され、9年目を迎えるゲーミングチームです。フォートナイトをメインに、Twitch,Youtubeを通して配信も行っています。
+       Health Good Bad Boysは2010年に設立され、9年目を迎えるゲーミングチームです。フォートナイトをメインに、Twitch,Youtube,Mixerを通して配信も行っています。
       </span>
     </v-flex>
 </v-layout>
